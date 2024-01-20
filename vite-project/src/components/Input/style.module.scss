@@ -1,0 +1,35 @@
+.input__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    padding: 8px;
+    width: 100%;
+
+    label {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: var(--gray-0);
+        font-size: 0.8125rem;
+        font-weight: 400;
+    }
+
+    input {
+        color: var(--gray-0);
+        width: 100%;
+        border: 1px solid var(--gray-0);
+        border-radius: 4px;
+        padding: 1rem;
+    }
+
+    input::placeholder {
+        color: var(--gray-1);
+        font-weight: 400;
+    }
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}

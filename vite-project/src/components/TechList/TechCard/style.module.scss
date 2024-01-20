@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 0.25rem;
+    background-color: #212529;
+    padding:12px 32px;
+    flex-wrap: wrap;
+    .handle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        color: white;
+
+
+        .icons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+    }
+}
