@@ -1,6 +1,6 @@
 import { useState } from "react";
+import { RoutesMain } from "./routes";
 import "./styles/index.scss";
-import { RoutesMain } from "./Routes";
 
 function App() {
    const [user, setUser] = useState();
